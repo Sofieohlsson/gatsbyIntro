@@ -1,5 +1,7 @@
 import React from "react"
 import styles from "./about-css-modules.module.css"
+import { Link } from "gatsby"
+
 
 import Container from "../components/container"
 console.log(styles)
@@ -18,6 +20,7 @@ const User = props => (
 
 export default () => (
   <Container>
+      <Link to="/">Home</Link>
     <h1>About CSS Modules</h1>
     <p>CSS Modules are cool</p>
     <User
