@@ -7,9 +7,14 @@
 module.exports = {
   plugins: [
     {
-      resolve: `gatsby-plugin-typography`,
+      resolve: `gatsby-plugin-gtag`,
       options: {
-        pathToConfigModule: `src/utils/typography`,
+        // your google analytics tracking id
+        trackingId: `UA-146670904-1`,
+        // Puts tracking script in the head instead of the body
+        head: false,
+        // enable ip anonymization
+        anonymize: true,
       },
     },
   ],

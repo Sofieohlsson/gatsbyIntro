@@ -1,3 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
 html {
-    background-color: lavenderblush;
+    background-image: url(../../static/images/backgroundwater.jpg);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  }
+
+  body{
+    max-width: 1000px;
+    height: auto;
+    padding: 50px; 
+    background-color: rgba(255, 255, 255, 0.575);
+    margin: auto; 
+  }
+
+  a {
+    color: black;
+    text-shadow: none; 
+    background-image: none; 
+    text-decoration: none; 
+  }
+
+  .learnforkids{
+    height: auto;
+    width: 300px; 
+  }
+
+
+  .logo{
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem; 
+    font-weight: 200;
   }
